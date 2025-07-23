@@ -63,36 +63,10 @@ bash
 Copy
 Edit
 python app.py
-Then visit your app in the browser:
-http://127.0.0.1:5000
+Then visit your app in the browser
 
-🔍 Sample Prediction Logic
-Input: User review text
 
-Model: CountVectorizer + Naive Bayes
 
-Output:
-
-extremist — biased, coordinated reviewer
-
-moderate — genuine review
-
-📸 Screenshots (Add Below)
-You can upload images to the static/ folder (e.g., static/images/) and embed like this:
-
-markdown
-Copy
-Edit
-### 🔐 Login Page
-![Login Page](static/images/login.png)
-
-### 🏠 Home Prediction Page
-![Home Page](static/images/home.png)
-📚 Reference Paper
-Viresh Gupta, Aayush Aggarwal, and Tanmoy Chakraborty
-“Detecting and Characterizing Extremist Reviewer Groups in Online Product Reviews”
-Accepted for publication in IEEE Transactions on Computational Social Systems
-(Content is final, pending pagination)
 
 👩‍💻 Developed By
 Riddhima Paliwal
