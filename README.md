@@ -35,20 +35,16 @@ Online marketplaces like Amazon often suffer from *opinion spam* — where coord
 
 ## 📁 Project Structure
 
+📁 Project Structure
 source code/
-├── app.py # Main Flask application
-├── amazon.csv # Labeled dataset
-├── templates/ # HTML templates (index.html, home.html, etc.)
-├── static/ # Static assets (CSS/JS/images)
-├── requirements.txt # Python libraries
-├── README.md # Project documentation
-└── .gitignore # Files to be excluded from Git
+├── app.py             # Main Flask application
+├── amazon.csv         # Labeled dataset
+├── templates/         # HTML templates (index.html, home.html, etc.)
+├── static/            # Static assets (CSS/JS/images)
+├── requirements.txt   # Python libraries
+├── README.md          # Project documentation
 
-yaml
-Copy
-Edit
 
----
 
 ## ⚙️ Installation Instructions
 
