@@ -1,0 +1,51 @@
+ <html>
+<head>
+<style>
+ 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  
+</style>
+</head>
+<body>
+
+<div>
+  <h1>Abstract</h1>
+  <p> <h2>Abstract</h2>
+<p>
+This project focuses on detecting and analyzing potentially extremist reviewers in online marketplaces, particularly in the context of product reviews. Online platforms often face the challenge of spam reviews that are either excessively positive or negative, often written to promote or damage the reputation of certain brands. 
+
+To address this, I collected review data from Amazon and built a machine learning-based detection system. Groups of reviewers were analyzed based on common patterns such as sentiment, review timing, rating behavior, and verified purchase status. Using techniques like frequent itemset mining and feature engineering, reviewers were clustered and classified based on their review behavior towards different brands.
+
+The classification model is powered by supervised learning techniques, including a multi-layer perceptron that achieved the best performance in detecting extremist tendencies in reviewer groups. The system further analyzes behavior patterns such as rating consistency, review sentiment distribution, and vote credibility to uncover potential spam activities. 
+
+This tool provides a deeper understanding of how biased reviews operate at the brand level and offers insights into developing more trustworthy review systems on e-commerce platforms.
+</p>
+
+ </P>
+  
+</div>
+ <input type="button" class= "button"onclick="window.location.href='{{url_for('upload')}}';" value="NEXT" />
+</body>
+</html>

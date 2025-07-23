@@ -1,0 +1,39 @@
+<html>
+   
+   <head>
+ <center><h1>Detecting and Characterizing Extremist Reviewer</h1></center>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+   </head>
+   
+   <body>
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = google.visualization.arrayToDataTable([
+               ['review', 'group_time_window'],
+               ['extremist',  700],
+               ['moderate',  400],
+               
+               
+            ]);
+
+            var options = {title: 'group_time_window'}; 
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.BarChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+		 
+      </script>
+	 <title><h1> Detecting and Characterizing Extremist Reviewer</h1></title> 
+   </body>
+   
+	<a href="{{url_for('future')}}"><button type="submit" style="background-color:blue;color:white;width:150px;height:40px;">FUTURE</button></a>
+</html>
